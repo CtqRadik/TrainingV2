@@ -1,0 +1,46 @@
+﻿<Page x:Class="Work.Pages.UserPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Work.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="UserPage">
+
+    <Grid Background="White">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0"></Grid>
+            <Grid Grid.Row="1">
+                <ListView x:Name="UserGrid" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="200"></ColumnDefinition>
+                                    <ColumnDefinition Width="200"></ColumnDefinition>
+                                    <ColumnDefinition Width="200"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel>
+                                    <TextBlock Grid.Column="0" Text="{Binding Surname}"></TextBlock>
+                                    <TextBlock Grid.Column="0" Text="{Binding Phone}"></TextBlock>
+                                    <TextBlock Grid.Column="0" Text="{Binding Login}"></TextBlock>
+                                </StackPanel>
+                                <TextBlock Grid.Column="1" Text="{Binding Role.Name}"></TextBlock>
+                                <Button Grid.Column="2" Content="Редактировать"></Button>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Button x:Name="addButton" Content="Добавить" Click="addButton_Click"></Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

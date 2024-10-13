@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\radik\\OneDrive\\Desktop\\seifetdinov\\Work\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5ABED8-AD27-41A0-A877-0B953E248E09}|Work\\Work.csproj|c:\\users\\radik\\onedrive\\desktop\\seifetdinov\\work\\work\\pages\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD5ABED8-AD27-41A0-A877-0B953E248E09}|Work\\Work.csproj|solutionrelative:work\\pages\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5ABED8-AD27-41A0-A877-0B953E248E09}|Work\\Work.csproj|c:\\users\\radik\\onedrive\\desktop\\seifetdinov\\work\\work\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5ABED8-AD27-41A0-A877-0B953E248E09}|Work\\Work.csproj|solutionrelative:work\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddUser.xaml",
+              "DocumentMoniker": "C:\\Users\\radik\\OneDrive\\Desktop\\seifetdinov\\Work\\Work\\Pages\\AddUser.xaml",
+              "RelativeDocumentMoniker": "Work\\Pages\\AddUser.xaml",
+              "ToolTip": "C:\\Users\\radik\\OneDrive\\Desktop\\seifetdinov\\Work\\Work\\Pages\\AddUser.xaml",
+              "RelativeToolTip": "Work\\Pages\\AddUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T14:25:46.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\radik\\OneDrive\\Desktop\\seifetdinov\\Work\\Work\\Pages\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Work\\Pages\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\radik\\OneDrive\\Desktop\\seifetdinov\\Work\\Work\\Pages\\Login.xaml.cs",
+              "RelativeToolTip": "Work\\Pages\\Login.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwDkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T10:31:15.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
